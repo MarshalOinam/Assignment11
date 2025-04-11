@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #443131;
+            color: white;
+          }
+        .navbar{
+            background-color: #205988;
+            display:flex;
+            top:0;
+            gap: 40px;
+            justify-content: center;
+            padding: 15px 0;
+            top: 0;
+        }
+        .navbar a{
+            color:rgb(231, 227, 227);
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 15px;
+        }
+        .navbar a:hover{
+            background-color: rgb(109, 8, 8);
+            color: #18a349;
+            border-radius: 6px;
+        }
+        .cards{
+            margin: 20px;
+            display: flex;
+            gap:20px;
+        }
+        .card{
+            background-color: #6e3e3e;
+            padding: 15px;
+            border-radius: 10px;
+            width: 140px;
+        }
+        .card img{
+            width: 100%;
+            border-radius: 8px;
+            border:2px solid rgb(168, 11, 11);
+            height: 140px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card p {
+            font-size: 14px;
+            color: rgb(235, 241, 241);
+            overflow-wrap: break-word;
+          }
+          
+        .image:hover {
+            transform: scale(1.05);
+        }
+        .image img{
+                width: 150px;         
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover; 
+                border: 2px solid #9b4a4a; 
+              } 
+        .image p{
+            font-size: 14px;
+            color: rgb(168, 157, 122);
+        }      
+    </style>
+</head>
+<body>
+    <div>
+        <div class="navbar">
+        <a href="#trending">Trending</a>
+        <a href="#artists">Artists</a>
+        <a href="#albums">Albums</a>
+        <a href="#radio">Radio</a>
+        <a href="#charts">Charts</a>
+      </div>
+      <main>
+        <div class="main">
+            <div class="section" id="trending">
+                <h2>Trending Songs</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="DownloadA11/assignment11a.jpg">
+                        <h4 >Mikap Thoklo Kangleipak</h4>
+                        <p>Ajoy Keisham</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11b.jpg">
+                        <h4>Se Se Swa</h4>
+                        <p>Ajoy Keisham</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11c.jpg">
+                        <h4>Kwakta Lamjel</h4>
+                        <p>Ereimang</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11d.jpg">
+                        <h4>Ashagi Atiya</h4>
+                        <p>Lamprophonia</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11e.jpg">
+                        <h4>Chaikhrae Ngasi</h4>
+                        <p>prod. wxngthoi</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11f.jpg">
+                        <h4>Heeyai</h4>
+                        <p>Chand Ningthou</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11g.jpg">
+                        <h4>Kalamlagae Kangleipak</h4>
+                        <p>YSKR</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/assignment11h.jpg">
+                        <h4>Laija</h4>
+                        <p>Felix Yumnam</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Assignment11i.jpg">
+                        <h4>Paphal</h4>
+                        <p>Preeti Yumnam</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="artists">
+                <h2>Popular Artists</h2>
+                <div class="cards">
+                    <div class="image">
+                        <img src="DownloadA11/assig11a.jpg">
+                        <h4>Chand Ningthou</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11b.jpg">
+                        <h4>Felix Yumnam</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11c.jpg">
+                        <h4>Lourakpam Jayanta</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11d.jpg">
+                        <h4>Linkin Park</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11e.jpg">
+                        <h4>Bruce Savag(neffex)</h4>
+                       <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11f.webp">
+                        <h4>Takahiro Moriuchi</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11g.jpg">
+                        <h4>O Neal</h4>
+                        <p>Artist</p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11h.jpg">
+                        <h4>Sam Tinnage</h4>
+                        <p>Artist/p>
+                    </div>
+                    <div class="image">
+                        <img src="DownloadA11/assig11i.jpg">
+                        <h4>Roudy Wade</h4>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="albums">
+                <h2>Popular albums and singles</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="DownloadA11/Ass11a.jpg">
+                        <h4>Rudy Wade</h4>
+                        <p>Without me</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11b.jpg">
+                        <h4>Taylor Swift</h4>
+                        <p>1989</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11c.jpg">
+                        <h4>Sam Tinnage</h4>
+                        <p>Legends Are Made</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11d.jpg">
+                        <h4>One ok Rock</h4>
+                        <p>Clock Strike</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11e.jpg">
+                        <h4>Morrons8</h4>
+                        <p>Animal</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11f.jpg">
+                        <h4>The Outfit</h4>
+                        <p>You Love</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11g.jpg">
+                        <h4>SteveAoki& AlanWAlker</h4>
+                        <p>Are You Lonely</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11h.jpg">
+                        <h4>AuroraOlivias & ReedWonder</h4>
+                        <p>Machine</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/Ass11i.jpg">
+                        <h4>The Weekend</h4>
+                        <p>Strikes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="radio">
+                <h2>Popular radio</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentA.jpg">
+                        <p>Samsmit writer WhatI Am station</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentB.avif">
+                        <p>Ed Sheeren and Plonton times CBC</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentC.jpg">
+                        <p>Annie Mac The Fodder BBC</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentD.jpg">
+                        <p>Nick Ginsaw Vidi BBC1Star</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentE.jpg">
+                        <p>One Direction BBC chat</p>
+                    </div>
+                    <div class="card">
+                        <img src="DownloadA11/11assignmentF.jpg">
+                        <p>Alice Merton andJustin Higuchin stardus</p>
+                    </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
+      <div class="section" id="charts">
+        <h2>Featured Charts</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="DownloadA11/download11a.png">
+            <p>Weekly Global Top Songs.</p>
+          </div>
+          <div class="card">
+            <img src="DownloadA11/download11b.png">
+            <p>Weekly USA Top Songs.</p>
+          </div>
+          <div class="card">
+            <img src="DownloadA11/download11c.png">
+            <p>Weekly Australia Top Songs.</p>
+          </div>
+          <div class="card">
+            <img src="DownloadA11/download11d.png">
+            <p>Weekly Indian Top Songs.</p>
+          </div>
+          <div class="card">
+            <img src="DownloadA11/download11e.png">
+            <p>Weekly North East Top Songs</p>
+            <p>                                                                </p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+      
+</body>
+</html>
